@@ -1,0 +1,274 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+}
+/* ===========magic menu start================== */
+
+.main_div{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: transparent;
+    position: relative;
+}
+.all {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.all .x{
+ position: absolute;
+ top: 34%;
+ left: 38%;
+ opacity: 0;
+ transition: all linear .3s;
+}
+.all:hover .x{
+    opacity: 1;
+}
+
+.all:hover{
+    animation: arif .6s linear ;
+}
+.all .plus{
+    transition: all linear .3s;
+}
+.all:hover .plus{
+    opacity: 0;
+}
+
+@keyframes arif{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        
+    }
+}
+.home{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all linear .6s;
+    animation: ani ;
+}
+@keyframes ani{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.all:hover .home{
+    bottom: 100px;
+    left: 0px;
+    opacity: 1;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #ffc400;
+    color: #ffc400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all linear .6s;
+    opacity: 0;
+}
+.all:hover .user{
+    bottom: 56px;
+    left: 81px;
+    opacity: 1;
+}
+.password{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #9dff00;
+    color: #9dff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all linear .6s;
+}
+.all:hover .password{
+    top: 31px;
+    left: 92px;
+    opacity: 1;
+}
+.setting{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #00ffa2;
+    color: #00ffa2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all linear .6s;
+}
+.all:hover .setting{
+    top: 92px;
+    left: 35px;
+    opacity: 1;
+}
+.email{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #00eaff;
+    color: #00eaff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: all linear .6s;
+}
+.all:hover .email{
+    top: 81px;
+    right: 56px;
+    opacity: 1;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #0040ff;
+    color: #0040ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: all linear .6s;
+}
+.all:hover .image{
+    top: 6px;
+    right: 99px;
+    opacity: 1;
+}
+.camera{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #ff00ee;
+    color: #ff00ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: all linear .6s;
+}
+.all:hover .camera{
+    bottom: 67px;
+    right: 74px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------magic menu end-------------- */
